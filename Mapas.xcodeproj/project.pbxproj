@@ -12,6 +12,8 @@
 		D7E6527D21E6456C00B322F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E6527B21E6456C00B322F5 /* Main.storyboard */; };
 		D7E6527F21E6456D00B322F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E6527E21E6456D00B322F5 /* Assets.xcassets */; };
 		D7E6528221E6456D00B322F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E6528021E6456D00B322F5 /* LaunchScreen.storyboard */; };
+		D7E6528A21E675C100B322F5 /* CoordenadasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6528921E675C100B322F5 /* CoordenadasViewController.swift */; };
+		D7E6528C21E6812400B322F5 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6528B21E6812400B322F5 /* MapaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D7E6527E21E6456D00B322F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7E6528121E6456D00B322F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7E6528321E6456D00B322F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E6528921E675C100B322F5 /* CoordenadasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordenadasViewController.swift; sourceTree = "<group>"; };
+		D7E6528B21E6812400B322F5 /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				D7E6527721E6456C00B322F5 /* AppDelegate.swift */,
 				D7E6527921E6456C00B322F5 /* ViewController.swift */,
+				D7E6528921E675C100B322F5 /* CoordenadasViewController.swift */,
+				D7E6528B21E6812400B322F5 /* MapaViewController.swift */,
 				D7E6527B21E6456C00B322F5 /* Main.storyboard */,
 				D7E6527E21E6456D00B322F5 /* Assets.xcassets */,
 				D7E6528021E6456D00B322F5 /* LaunchScreen.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E6528A21E675C100B322F5 /* CoordenadasViewController.swift in Sources */,
+				D7E6528C21E6812400B322F5 /* MapaViewController.swift in Sources */,
 				D7E6527A21E6456C00B322F5 /* ViewController.swift in Sources */,
 				D7E6527821E6456C00B322F5 /* AppDelegate.swift in Sources */,
 			);
@@ -289,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gabriel.Mapas2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabriel.Mapas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +315,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gabriel.Mapas2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabriel.Mapas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
